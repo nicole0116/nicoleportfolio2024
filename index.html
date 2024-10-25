@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif">
+    <link href="./css/main.css" rel="stylesheet">
+
+    <title>Nicole作品集</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">
+            <img src="./images/logo_pc.svg" alt="">
+        </h1>
+        <div class="hamburger" id="hamburger-1">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+
+    </header>
+    <nav>
+
+        <ul id="nav">
+            <li><a href="#" class="is-nav-li">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="copyright">copyright by Nicole</div>
+    </nav>
+    <main>
+
+        <section>
+
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <ul class="breadcrumbs flex align-items-center">
+                            <li><a href="#">Home</a></li>
+                            <li>Portfolio</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row gy-4 ">
+                    <div class="col-2 col-sm-2 col-md-3 wow zoomIn">
+                        <div class="photo">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis mollitia eius dolorum
+                            consectetur deserunt, non explicabo repellat dolor, fuga molestias deleniti voluptatibus
+                            distinctio aspernatur! Maxime incidunt dolores ea, mollitia porro, magnam aliquam a totam
+                            fugiat nihil non architecto quia. Ipsam ullam, aliquam debitis sit, vitae sed id provident
+                            et natus saepe ipsum, incidunt repellendus hic alias sunt voluptatum nobis similique optio
+                            vero necessitatibus fugit perferendis! Quasi reprehenderit officia ipsa praesentium
+                            voluptatibus libero dolores, debitis quis optio, architecto commodi harum. Maiores, incidunt
+                            sed quaerat porro vero, eum unde, non blanditiis ducimus quis excepturi cumque ex
+                            consectetur molestiae accusamus. Hic, vel incidunt?
+                        </div>
+                    </div>
+                   
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    <footer></footer>
+    <script src="./js/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $(".hamburger").click(function () {
+                $(this).toggleClass("is-active");
+                $('nav').toggleClass("is-nav")
+            });
+        });
+    </script>
+
+</body>
+
+</html>
